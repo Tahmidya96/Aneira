@@ -34,7 +34,7 @@ selected = option_menu(
     )
 
 if selected == "Home":
-    st.title(f"Yuk Sebelum Melangkah Lebih Lanjut, Kenalan Dulu sama Kita di About Us Ya!")
+    st.header(f"Yuk Sebelum Melangkah Lebih Lanjut, Kenalan Dulu sama Kita di About Us Ya!")
     st.subheader(f"Udah kenal sama kita kan ? Nah kalau sudah, yuk pelajari lebih lanjut tentang Cybersecurity.")
 
     st.image("image/cyber.png")
@@ -80,7 +80,7 @@ if selected == "Artikel":
 
         st.write("Nah, itu lah beberapa ciri-ciri dari email phishing. Apabila Anda menerima email dengan ciri-ciri di atas, segera pastikan dan hubungi lembaga terkait untuk memastikan, apakah email yang dikirim tersebut resmi, benar, dan aman.")
 
-        st.title("Sumber")
+        st.header("Sumber")
         st.write("1. https://money.kompas.com/read/2022/05/31/110800226/apa-itu-penipuan-email-phishing-simak-modus-dan-ciri-cirinya")
         st.write("2. https://www.proofpoint.com/us/threat-reference/phishing#:~:text=Phishing%20is%20when%20attackers%20send,credentials%20or%20other%20sensitive%20data")
         st.write("3. https://www.indotelko.com/read/1655238141/47-upaya-phishing-di-indonesia-sasar-sektor-keuangan")
@@ -108,7 +108,7 @@ if selected == "Artikel":
         st.image("image/auto.png")
         st.write("Mematikan fitur koneksi otomatis ke jaringan terbuka atau WiFi publik dan jangan lupa setelah menggunakan WiFi publik pilih opsi “Lupakan jaringan” atau “forget network”. Pengguna juga harus mematikan berbagi WiFi (Tethering) jika tidak dipergunakan lagi. Pengaktifan terhubung otomatis jaringan memang mempermudah pengguna, namun hal tersebut dapat memberi kesempatan peretas dalam menyebarkan malware dan mencuri data pribadi pengguna.")
 
-        st.title("Sumber")
+        st.header("Sumber")
         st.write("1. https://unida.ac.id/teknologi/artikel/cara-aman-menggunakan-wifi-publik-agar-terhindar-dari-hacker.html")
         st.write("2. https://kharismaworld.co.id/blog/bahaya-menggunakan-wifi-publik")
         st.write("3. https://m.liputan6.com/tekno/read/4636663/5-tips-aman-menggunakan-wifi-publik")
@@ -122,7 +122,7 @@ if selected == "Artikel":
         st.write("Tawaran dana cepat dengan persyaratan yang mudah membuat orang akan tergiur dan memilih untuk mengikuti anjuran pesan tersebut. Tuntutan mendapatkan uang banyak, memenuhi gaya hidup mendorong masyarakat memilih melakukan pinjaman online. Maraknya pinjaman online yang ditawarkan melalui pesan singkat tidak menutup kemungkinan adanya penipuan atau pinjaman secara ilegal. Dilansir dari merdeka, sistem kerja pinjaman online secara ilegal menawarkan kemudahan pengajuan pinjaman. Hanya dengan mendownload aplikasi, peminjam kemudian diminta menyerahkan data diri dan mengisi nomor rekening, dan tidak lama kemudian uang pinjaman bisa dicairkan. Namanya pinjaman tentu harus dikembalikan. Namun, sistematika penagihan yang tidak ramah dikeluhkan masyarakat. Otoritas Jasa Keuangan (OJK) menerima 19.711 pengaduan korban pinjaman online pada rentang waktu 2019-2021. Sebagian besar pengaduan masyarakat adalah pencairan dana pinjaman tanpa persetujuan pemohon, ancaman penyebaran data pribadi, dan intimidasi dalam penagihan pinjaman. Pemerintah memiliki kewajiban dalam melindungi keamanan masyarakat dalam keadaan ini. Jika melihat UU Nomor 19 tahun 2016 tentang Informasi dan Transaksi Elektronik, tepatnya pada pasal 40, dijelaskan bahwa pemerintah harus melindungi kepentingan masyarakat dari gangguan pada saat melakukan transaksi elektronik.")
         st.write("Untuk menghadapi masalah tersebut, pemerintah melalui Otoritas Jasa Keuangan (OJK) memberikan solusi dengan menyediakan sarana pinjaman online yang legal. Berdasarkan data OJK Per April 2022  terdapat 102 perusahaan fintech yang menyediakan pinjaman online secara legal. Perusahaan yang terdapat dapat dilihat melalui website ojk.go.id Layanan pinjaman online legal memberikan dana dengan prosedur penagihan yang tepat yaitu dengan jatuh tempo 90 hari. Selain keamanan transaksi, memilih jalan legal bisa membantu kita untuk lebih bijak dalam menggunakan uang sesuai kebutuhan. Adanya upaya pemerintah dalam mengatasi pinjaman online ilegal juga diimbangi oleh sikap masyarakat. Meskipun adanya desakan ekonomi jangan sampai menutup diri untuk berpikiran jernih. Oleh karena itu, berhati-hatilah, kejahatan akan melihat celah dari kelengahan anda.")
 
-        st.title("Sumber")
+        st.header("Sumber")
         st.write("1. https://lsc.bphn.go.id/konsultasiView?id=5089#:~:text=Sedangkan%2C%20untuk%20pinjol%20legal%20cara,90%20hari%20dari%20jatuh%20tempo")
         st.write("2. https://www.merdeka.com/peristiwa/sistem-kerja-pinjol-ilegal-cari-mangsa.html")
         st.write("3. UU ITE No. 19 Tahun 2016")
@@ -157,6 +157,7 @@ if selected == "Artikel":
         st.write("1. https://www.kaspersky.com/resource-center/definitions/what-is-doxing#:~:text=Doxing%20")
         st.write("2. https://tirto.id/mengenal-doxing-di-media-sosial-bahaya-dan-cara-mencegahnya-f5lm")
         st.write("3. https://yoursay.suara.com/news/2021/07/05/134254/mengenal-bahaya-doxing-di-media-sosial-ini-cara-menghindarinya")
+
 if selected == "About Us":
     st.write(f"CyberWare merupakan wadah literasi serta edukasi bagi masyarakat mengenai cybersecurity. Literasi dan edukasi yang diberikan oleh CyberWare berupa artikel yang terdiri dari tips dan trik, informasi, serta berita yang berhubungan dengan isu-isu cybersecurity yang ada di Indonesia maupun diranah global. Artikel ataupun konten akan dikemas dalam bentuk yang ringkas serta informatif, sehingga pembahasan mengenai cybersecurity dapat dikonsumsi dengan mudah oleh khalayak umum.")
     
