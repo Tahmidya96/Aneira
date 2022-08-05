@@ -86,7 +86,7 @@ if selected == "Artikel":
         st.write("3. https://www.indotelko.com/read/1655238141/47-upaya-phishing-di-indonesia-sasar-sektor-keuangan")
 
     if choice == "Free WiFi":
-        st.title(choice)
+        st.title("Free WiFi? Apakah aman?")
         # konten free wifi
         st.image("image/wifi.png")
         st.write("WiFi publik sering kita jumpai di tempat umum. Kehadiran WiFi publik atau Free WiFi tentu membuat pengakses merasakan kenyamanan terkoneksi internet dengan mudah dan gratis. Dibalik kenyamanan yang diberikan WiFi publik, perlu kita waspadai bahwa WiFi publik rentan terjadi peretasan (Hacker) yaitu pencurian data pribadi dan data riwayat akses yang bersifat sensitif ketika pengguna mengakses masuk atau login ke akun sosial media menggunakan WiFi publik, sebab riwayat akses tersebut dapat ikut terekam oleh WiFi publik.")
