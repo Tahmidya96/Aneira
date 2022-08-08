@@ -182,7 +182,7 @@ def main():
         postlist = st.selectbox("Posts",all_titles)
         post_result = get_blog_by_title(postlist)
         for i in post_result:
-            short_article = str(i[2])[0:115]
+            short_article = str(i[2])[0:430]
             st.write(title_temp.format(i[1],i[0],short_article),unsafe_allow_html=True)
             
     if choice == "Tambah Artikel":
